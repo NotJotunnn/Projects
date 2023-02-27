@@ -44,7 +44,7 @@
             <td><a href="./colorFlipper">Color flipper</a></td>
             <td>31/03/2022<br>às 12:10</td>
             <td align="center">
-            <a href="./businessCard"><img width="300px" src="./colorFlipper/github/colorflipper.jpg" /></a></td>
+            <a href="./colorFlipper"><img width="300px" src="./colorFlipper/github/colorflipper.jpg" /></a></td>
         </tr>
         <tr>
             <td>02</td>
@@ -124,7 +124,7 @@
             <td><a href="./colorFlipper">Color flipper</a></td>
             <td>31/03/2022<br>at 12:10PM</td>
             <td align="center">
-            <a href="./businessCard"><img width="300px" src="./colorFlipper/github/colorflipper.jpg" /></a></td>
+            <a href="./colorFlipper"><img width="300px" src="./colorFlipper/github/colorflipper.jpg" /></a></td>
         </tr>
         <tr>
             <td>02</td>
