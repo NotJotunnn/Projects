@@ -79,7 +79,7 @@
             <td><a href="./tasks">Task List</a></td>
             <td>11/04/2022<br>às 10:47</td>
             <td align="center">
-            <a href="./Password-Generator"><img width="300px" src="./tasks/github/task.jpg" /></a></td>
+            <a href="./tasks"><img width="300px" src="./tasks/github/task.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p><br>
@@ -159,7 +159,7 @@
             <td><a href="./tasks">Task List</a></td>
             <td>11/04/2022<br>at 10:47AM</td>
             <td align="center">
-            <a href="./Password-Generator"><img width="300px" src="./tasks/github/task.jpg" /></a></td>
+            <a href="./tasks"><img width="300px" src="./tasks/github/task.jpg" /></a></td>
         </tr>
     </tbody>
 </table></p>
