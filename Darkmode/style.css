@@ -1,0 +1,85 @@
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--light);
+}
+
+label {
+    background-color: var(--label);
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+
+input {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+div.slider {
+    background-color: var(--light);
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 2px;
+    transition: left .4s;
+    z-index: 2;
+}
+
+input:checked + .slider {
+    position: absolute;
+    left: 42px;
+    background-color: var(--dark);
+}
+
+.bg-color {
+    background-color: var(--dark);
+}
+
+.sun, .moon {
+    position: relative;
+    left: 40px;
+    /* border: 5px solid red; */
+    width: 25px;
+    height: 25px;
+    /* width: 0px;
+    height: 0px; */
+}
+
+.svgs {
+    position: relative;
+    right: 4px;
+    top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    z-index: 1;
+}
+
+.blocker {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    /* border: 5px solid red; */
+    z-index: 3;
+}

@@ -1,0 +1,86 @@
+/* globais */
+:root {
+    --body-bg-color: #FAF7FD;
+    --cor-principal: #BB99DD;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+.containercontato img {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    border-radius: 100%;
+    border: 2px solid #BB99DD;
+}
+
+* {
+    /* border: 5px solid red; */
+    padding: 0px;
+    margin: 0px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #BB99DD;
+    text-align: center;
+    margin-top: 16px;
+}
+
+li {
+    color: #BB99DD;
+    padding: 13px 0px;
+    min-width: 326px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--body-bg-color);
+    height: 98vh;
+}
+
+.containercontato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.containerredes {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.containerredes > ul {
+    list-style-type: none;
+}
+
+.containerredes li {
+    text-align: center;
+    border: 2px solid var(--cor-principal);
+    margin: 13px 0px 13px 0px;
+}
+
+.redessociais {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+}

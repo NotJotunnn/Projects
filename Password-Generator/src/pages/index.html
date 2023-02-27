@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../js/generateRandom.js" defer></script>
+    <script src="../js/verifyPassword.js" defer></script>
+    <!-- <script src="../js/renderer.js" defer></script> -->
+    <title>Password generation</title>
+</head>
+<body class="bg">
+    <input readonly placeholder="Password here" id="output" class="toggle"/>
+
+    <div class="strength-meter" id="strength-meter"></div>
+
+    <button id="start" class="btn">Generate!</button>
+
+    <div class="section">
+        <p>Size:</p>
+        <label>
+            <input type="number" name="size" id="size" max="32" min="1" value="8">
+
+        </label>
+    </div>
+
+    <div class="section">
+        <p>Numbers?</p>
+        <label class="toggle" for="number">
+            <input class="toggle__input" type="checkbox" name="number" id="number" checked>
+            <div class="toggle__fill"></div>
+        </label>
+    </div>
+
+    <div class="section">
+        <p>Special characters?</p>
+        <label class="toggle" for="character">
+            <input class="toggle__input" type="checkbox" name="character" id="character">
+            <div class="toggle__fill"></div>
+        </label>
+    </div>
+
+    <div class="section">
+        <p>Letters?</p>
+        <label class="toggle" for="letter">
+            <input class="toggle__input" type="checkbox" name="letter" id="letter">
+            <div class="toggle__fill"></div>
+        </label>
+    </div>
+
+    <div class="section">
+        <p>Uppercase?</p>
+        <label class="toggle" for="caps">
+            <input class="toggle__input" type="checkbox" name="caps" id="caps">
+            <div class="toggle__fill"></div>
+        </label>
+    </div>
+    <!-- <button type="button" id="weird">Weird theme</button> -->
+
+</body>
+</html>

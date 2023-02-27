@@ -1,0 +1,16 @@
+{
+  "name": "arraychanger",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js"
+  },
+  "keywords": [],
+  "author": "NotJotunnn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
