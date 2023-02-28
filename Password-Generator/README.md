@@ -18,6 +18,8 @@
 <span>Coding Language/Framework:</span><br>
   <a target="_blank" href="https://www.w3schools.com/html/"><img alt="HTML" src="https://img.shields.io/badge/html-D26531?style=for-the-badge"></a>
   <a target="_blank" href="https://www.w3schools.com/Css/"><img alt="CSS" src="https://img.shields.io/badge/css-3172B3?style=for-the-badge"></a>
+  <a target="_blank" href="https://www.electronjs.org/"><img alt="ElectronJS" src="https://img.shields.io/badge/electronjs-a1ebfa?style=for-the-badge"></a>
+  <a target="_blank" href="https://nodejs.org/en/"><img alt="NodeJS" src="https://img.shields.io/badge/nodejs-54A345?style=for-the-badge"></a>
 </p>
 
 <p align="center">
