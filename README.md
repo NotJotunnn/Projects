@@ -2,8 +2,8 @@
 
 <p align="center">
 <span>Language:</span><br>
-  <a href="#projetos-desafios-do-scrimba"><img alt="Português" src="https://img.shields.io/badge/Português-PTBR-blue?style=for-the-badge"></a>
-  <a href="#scrimba-challenge-projects"><img alt="English" src="https://img.shields.io/badge/English-EN-blue?style=for-the-badge"></a>
+  <a href="#projetos"><img alt="Português" src="https://img.shields.io/badge/Português-PTBR-blue?style=for-the-badge"></a>
+  <a href="#projects"><img alt="English" src="https://img.shields.io/badge/English-EN-blue?style=for-the-badge"></a>
 </p>
 
 ## Projetos
